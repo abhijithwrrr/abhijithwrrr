@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 140" width="100%">
+  <style>
+    .text-p { fill: #e4e4e4; } .text-s { fill: #888; } .stroke { stroke: #2a2a2a; }
+    @media (prefers-color-scheme: light) {
+      .text-p { fill: #1f1f1f; } .text-s { fill: #666; } .stroke { stroke: #d8d8e0; }
+    }
+  </style>
+  <text x="40" y="45" font-family="system-ui,sans-serif" font-size="24" font-weight="600" class="text-p">Hiring for mobile?</text>
+  <text x="40" y="80" class="text-s" font-family="system-ui,sans-serif" font-size="14">
+    Open to senior mobile roles, architecture, or device-integrated app work.
+  </text>
+
+  <rect x="40" y="100" width="200" height="40" rx="8" fill="none" stroke="url(#contactGrad)" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></rect>
+  <text x="100" y="126" font-family="system-ui,sans-serif" font-size="13" class="text-p" text-anchor="middle">Start a conversation →</text>
+
+  <rect x="260" y="100" width="140" height="40" rx="8" fill="none" class="stroke" stroke-width="1"/>
+  <text x="330" y="126" font-family="system-ui,sans-serif" font-size="13" class="text-p" text-anchor="middle">GitHub</text>
+  <rect x="420" y="100" width="140" height="40" rx="8" fill="none" class="stroke" stroke-width="1"/>
+  <text x="490" y="126" font-family="system-ui,sans-serif" font-size="13" class="text-p" text-anchor="middle">LinkedIn</text>
+  <rect x="580" y="100" width="140" height="40" rx="8" fill="none" class="stroke" stroke-width="1"/>
+  <text x="650" y="126" font-family="system-ui,sans-serif" font-size="13" class="text-p" text-anchor="middle">Resume ↓</text>
+  <rect x="740" y="100" width="140" height="40" rx="8" fill="none" class="stroke" stroke-width="1"/>
+  <text x="810" y="126" font-family="system-ui,sans-serif" font-size="13" class="text-p" text-anchor="middle">Website ↗</text>
+</svg>

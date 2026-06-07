@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="100%">
+  <style>
+    .card-bg { fill: #1a1a2e; opacity: 0.4; } .stroke { stroke: #2a2a2a; }
+    .text-p { fill: #e4e4e4; } .text-s { fill: #888; } .text-m { fill: #555; }
+    .text-a1 { fill: #6C63FF; } .text-green { fill: #22C55E; }
+    @media (prefers-color-scheme: light) {
+      .card-bg { fill: #f0f0f6; opacity: 0.6; }
+      .stroke { stroke: #d8d8e0; } .text-p { fill: #1f1f1f; }
+      .text-s { fill: #666; } .text-m { fill: #999; }
+    }
+  </style>
+  <rect x="20" y="10" width="230" height="130" rx="12" class="card-bg"/>
+  <rect x="20" y="10" width="230" height="130" rx="12" fill="none" class="stroke" stroke-width="1">
+    <animate attributeName="stroke" values="#2a2a2a;#6C63FF;#2a2a2a" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="45" cy="38" r="4" fill="#22C55E">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="4;6;4" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="58" y="43" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#6C63FF">BUILDING</text>
+  <text x="40" y="70" font-family="system-ui,sans-serif" font-size="15" font-weight="600" class="text-p">Bolt v2</text>
+  <text x="40" y="92" font-family="system-ui,sans-serif" font-size="12" class="text-s">Business-in-a-box for</text>
+  <text x="40" y="110" font-family="system-ui,sans-serif" font-size="12" class="text-s">Indian power tool shops</text>
+  <text x="40" y="132" font-family="system-ui,sans-serif" font-size="11" class="text-m">Closed-testing helper too</text>
+
+  <rect x="270" y="10" width="230" height="130" rx="12" class="card-bg"/>
+  <rect x="270" y="10" width="230" height="130" rx="12" fill="none" class="stroke" stroke-width="1">
+    <animate attributeName="stroke" values="#2a2a2a;#FF6584;#2a2a2a" dur="5s" repeatCount="indefinite" begin="1.5s"/>
+  </rect>
+  <circle cx="295" cy="38" r="4" fill="#FF6584">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <text x="308" y="43" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#FF6584">EXPLORING</text>
+  <text x="290" y="70" font-family="system-ui,sans-serif" font-size="15" font-weight="600" class="text-p">Web Dev</text>
+  <text x="290" y="92" font-family="system-ui,sans-serif" font-size="12" class="text-s">Hunting for a productivity</text>
+  <text x="290" y="110" font-family="system-ui,sans-serif" font-size="12" class="text-s">tool worth building</text>
+  <text x="290" y="132" font-family="system-ui,sans-serif" font-size="11" class="text-m">Ideas welcome → tally.so/r/44pr6b</text>
+
+  <rect x="520" y="10" width="230" height="130" rx="12" class="card-bg"/>
+  <rect x="520" y="10" width="230" height="130" rx="12" fill="none" class="stroke" stroke-width="1">
+    <animate attributeName="stroke" values="#2a2a2a;#6C63FF;#2a2a2a" dur="5s" repeatCount="indefinite" begin="3s"/>
+  </rect>
+  <circle cx="545" cy="38" r="4" fill="#6C63FF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <text x="558" y="43" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#6C63FF">READING</text>
+  <text x="540" y="70" font-family="system-ui,sans-serif" font-size="15" font-weight="600" class="text-p">1984</text>
+  <text x="540" y="92" font-family="system-ui,sans-serif" font-size="12" class="text-s">George Orwell — reread.</text>
+  <text x="540" y="110" font-family="system-ui,sans-serif" font-size="12" class="text-s">Still uncomfortably accurate.</text>
+  <text x="540" y="132" font-family="system-ui,sans-serif" font-size="11" class="text-m">Rewatching The Office too</text>
+
+  <rect x="770" y="10" width="215" height="130" rx="12" class="card-bg"/>
+  <rect x="770" y="10" width="215" height="130" rx="12" fill="none" class="stroke" stroke-width="1"/>
+  <circle cx="795" cy="38" r="4" fill="#22C55E">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <text x="808" y="43" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#22C55E">OPEN TO</text>
+  <text x="790" y="70" font-family="system-ui,sans-serif" font-size="15" font-weight="600" class="text-p">Senior Mobile Roles</text>
+  <text x="790" y="92" font-family="system-ui,sans-serif" font-size="12" class="text-s">Remote or hybrid. Freelance</text>
+  <text x="790" y="110" font-family="system-ui,sans-serif" font-size="12" class="text-s">too. Say hi.</text>
+  <text x="790" y="132" font-family="system-ui,sans-serif" font-size="11" class="text-m">warrierabhijith@gmail.com</text>
+</svg>

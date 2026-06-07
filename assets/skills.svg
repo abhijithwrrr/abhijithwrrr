@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%">
+  <style>
+    .text-p { fill: #e4e4e4; } .text-s { fill: #888; } .text-a1 { fill: #6C63FF; }
+    .bar-bg { fill: #2a2a2a; } .divider { fill: #2a2a2a; }
+    @media (prefers-color-scheme: light) {
+      .text-p { fill: #1f1f1f; } .text-s { fill: #666; }
+      .bar-bg { fill: #e0e0e0; } .divider { fill: #d8d8e0; }
+    }
+  </style>
+
+  <text x="40" y="30" font-family="system-ui,sans-serif" font-size="11" font-weight="600" class="text-s" letter-spacing="1">LANGUAGES</text>
+  <text x="310" y="30" font-family="system-ui,sans-serif" font-size="11" font-weight="600" class="text-s" letter-spacing="1">ANDROID</text>
+  <text x="580" y="30" font-family="system-ui,sans-serif" font-size="11" font-weight="600" class="text-s" letter-spacing="1">iOS</text>
+  <text x="830" y="30" font-family="system-ui,sans-serif" font-size="11" font-weight="600" class="text-s" letter-spacing="1">ARCHITECTURE</text>
+
+  <text x="40" y="60" class="text-p" font-family="system-ui,sans-serif" font-size="12">Kotlin</text>
+  <rect x="40" y="68" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="40" y="68" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;180;180" dur="2s" fill="freeze"/></rect>
+  <text x="40" y="92" class="text-p" font-family="system-ui,sans-serif" font-size="12">Swift</text>
+  <rect x="40" y="100" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="40" y="100" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;140;140" dur="2s" begin="0.3s" fill="freeze"/></rect>
+  <text x="40" y="124" class="text-p" font-family="system-ui,sans-serif" font-size="12">Java</text>
+  <rect x="40" y="132" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="40" y="132" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;130;130" dur="2s" begin="0.6s" fill="freeze"/></rect>
+
+  <text x="310" y="60" class="text-p" font-family="system-ui,sans-serif" font-size="12">Jetpack Compose</text>
+  <rect x="310" y="68" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="310" y="68" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;190;190" dur="2s" begin="0.2s" fill="freeze"/></rect>
+  <text x="310" y="92" class="text-p" font-family="system-ui,sans-serif" font-size="12">Android SDK</text>
+  <rect x="310" y="100" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="310" y="100" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;180;180" dur="2s" begin="0.5s" fill="freeze"/></rect>
+  <text x="310" y="124" class="text-p" font-family="system-ui,sans-serif" font-size="12">Room / DataStore</text>
+  <rect x="310" y="132" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="310" y="132" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;160;160" dur="2s" begin="0.8s" fill="freeze"/></rect>
+  <text x="310" y="156" class="text-p" font-family="system-ui,sans-serif" font-size="12">Material 3</text>
+  <rect x="310" y="164" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="310" y="164" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;170;170" dur="2s" begin="1.1s" fill="freeze"/></rect>
+
+  <text x="580" y="60" class="text-p" font-family="system-ui,sans-serif" font-size="12">SwiftUI</text>
+  <rect x="580" y="68" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="580" y="68" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;150;150" dur="2s" begin="0.4s" fill="freeze"/></rect>
+  <text x="580" y="92" class="text-p" font-family="system-ui,sans-serif" font-size="12">UIKit</text>
+  <rect x="580" y="100" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="580" y="100" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;130;130" dur="2s" begin="0.7s" fill="freeze"/></rect>
+  <text x="580" y="124" class="text-p" font-family="system-ui,sans-serif" font-size="12">Core Bluetooth</text>
+  <rect x="580" y="132" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="580" y="132" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;120;120" dur="2s" begin="1s" fill="freeze"/></rect>
+  <text x="580" y="156" class="text-p" font-family="system-ui,sans-serif" font-size="12">TestFlight</text>
+  <rect x="580" y="164" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="580" y="164" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;140;140" dur="2s" begin="1.3s" fill="freeze"/></rect>
+
+  <text x="830" y="60" class="text-p" font-family="system-ui,sans-serif" font-size="12">MVVM / MVI</text>
+  <rect x="830" y="68" width="150" height="6" rx="3" class="bar-bg"/>
+  <rect x="830" y="68" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;140;140" dur="2s" begin="0.3s" fill="freeze"/></rect>
+  <text x="830" y="92" class="text-p" font-family="system-ui,sans-serif" font-size="12">Clean Architecture</text>
+  <rect x="830" y="100" width="150" height="6" rx="3" class="bar-bg"/>
+  <rect x="830" y="100" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;145;145" dur="2s" begin="0.6s" fill="freeze"/></rect>
+  <text x="830" y="124" class="text-p" font-family="system-ui,sans-serif" font-size="12">Hilt / Dagger</text>
+  <rect x="830" y="132" width="150" height="6" rx="3" class="bar-bg"/>
+  <rect x="830" y="132" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;135;135" dur="2s" begin="0.9s" fill="freeze"/></rect>
+  <text x="830" y="156" class="text-p" font-family="system-ui,sans-serif" font-size="12">SOLID Principles</text>
+  <rect x="830" y="164" width="150" height="6" rx="3" class="bar-bg"/>
+  <rect x="830" y="164" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;150;150" dur="2s" begin="1.2s" fill="freeze"/></rect>
+
+  <rect x="40" y="205" width="920" height="1" rx="0.5" class="divider"/>
+
+  <text x="40" y="235" class="text-s" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="1">NETWORKING &amp; CLOUD</text>
+  <text x="310" y="235" class="text-s" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="1">CONCURRENCY</text>
+  <text x="580" y="235" class="text-s" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="1">IoT &amp; HARDWARE</text>
+  <text x="830" y="235" class="text-s" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="1">TESTING &amp; DELIVERY</text>
+
+  <text x="40" y="265" class="text-p" font-family="system-ui,sans-serif" font-size="12">Retrofit / OkHttp</text>
+  <rect x="40" y="273" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="40" y="273" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;185;185" dur="2s" begin="0.5s" fill="freeze"/></rect>
+  <text x="40" y="297" class="text-p" font-family="system-ui,sans-serif" font-size="12">Firebase</text>
+  <rect x="40" y="305" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="40" y="305" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;170;170" dur="2s" begin="0.8s" fill="freeze"/></rect>
+  <text x="40" y="329" class="text-p" font-family="system-ui,sans-serif" font-size="12">Cloudflare R2</text>
+  <rect x="40" y="337" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="40" y="337" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;110;110" dur="2s" begin="1.1s" fill="freeze"/></rect>
+
+  <text x="310" y="265" class="text-p" font-family="system-ui,sans-serif" font-size="12">Coroutines + Flow</text>
+  <rect x="310" y="273" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="310" y="273" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;195;195" dur="2s" begin="0.4s" fill="freeze"/></rect>
+  <text x="310" y="297" class="text-p" font-family="system-ui,sans-serif" font-size="12">StateFlow</text>
+  <rect x="310" y="305" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="310" y="305" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;165;165" dur="2s" begin="0.7s" fill="freeze"/></rect>
+  <text x="310" y="329" class="text-p" font-family="system-ui,sans-serif" font-size="12">RxJava</text>
+  <rect x="310" y="337" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="310" y="337" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;110;110" dur="2s" begin="1s" fill="freeze"/></rect>
+
+  <text x="580" y="265" class="text-p" font-family="system-ui,sans-serif" font-size="12">USB / BLE</text>
+  <rect x="580" y="273" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="580" y="273" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;160;160" dur="2s" begin="0.6s" fill="freeze"/></rect>
+  <text x="580" y="297" class="text-p" font-family="system-ui,sans-serif" font-size="12">LoRa Protocols</text>
+  <rect x="580" y="305" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="580" y="305" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;130;130" dur="2s" begin="0.9s" fill="freeze"/></rect>
+  <text x="580" y="329" class="text-p" font-family="system-ui,sans-serif" font-size="12">Firmware Parsing</text>
+  <rect x="580" y="337" width="200" height="6" rx="3" class="bar-bg"/>
+  <rect x="580" y="337" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;140;140" dur="2s" begin="1.2s" fill="freeze"/></rect>
+
+  <text x="830" y="265" class="text-p" font-family="system-ui,sans-serif" font-size="12">JUnit / Mockito</text>
+  <rect x="830" y="273" width="150" height="6" rx="3" class="bar-bg"/>
+  <rect x="830" y="273" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;135;135" dur="2s" begin="0.5s" fill="freeze"/></rect>
+  <text x="830" y="297" class="text-p" font-family="system-ui,sans-serif" font-size="12">Espresso / XCTest</text>
+  <rect x="830" y="305" width="150" height="6" rx="3" class="bar-bg"/>
+  <rect x="830" y="305" width="0" height="6" rx="3" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;140;140" dur="2s" begin="0.8s" fill="freeze"/></rect>
+  <text x="830" y="329" class="text-p" font-family="system-ui,sans-serif" font-size="12">CI/CD</text>
+  <rect x="830" y="337" width="150" height="6" rx="3" class="bar-bg"/>
+  <rect x="830" y="337" width="0" height="6" rx="3" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;145;145" dur="2s" begin="1.1s" fill="freeze"/></rect>
+
+  <rect x="40" y="380" width="920" height="1" rx="0.5" class="divider"/>
+
+  <text x="40" y="410" class="text-s" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="1">WORKFLOW</text>
+  <text x="40" y="438" class="text-s" font-family="system-ui,sans-serif" font-size="12">
+    <tspan fill="#6C63FF" font-weight="500">Android Studio</tspan>
+    <tspan> · </tspan>
+    <tspan fill="#6C63FF" font-weight="500">Xcode</tspan>
+    <tspan> · </tspan>
+    <tspan fill="#6C63FF" font-weight="500">Gradle</tspan>
+    <tspan> · </tspan>
+    <tspan fill="#6C63FF" font-weight="500">Figma</tspan>
+    <tspan> · </tspan>
+    <tspan fill="#6C63FF" font-weight="500">Postman</tspan>
+    <tspan> · </tspan>
+    <tspan fill="#6C63FF" font-weight="500">Agile / Scrum</tspan>
+  </text>
+</svg>

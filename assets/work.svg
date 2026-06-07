@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%">
+  <style>
+    .card-bg { fill: #1a1a2e; opacity: 0.4; } .text-p { fill: #e4e4e4; }
+    .text-s { fill: #888; } .text-m { fill: #555; }
+    .text-a1 { fill: #6C63FF; } .text-a2 { fill: #FF6584; }
+    .text-green { fill: #22C55E; }
+    @media (prefers-color-scheme: light) {
+      .card-bg { fill: #f0f0f6; opacity: 0.6; }
+      .text-p { fill: #1f1f1f; } .text-s { fill: #666; } .text-m { fill: #999; }
+    }
+  </style>
+
+  <g>
+    <rect x="20" y="0" width="960" height="175" rx="14" class="card-bg"/>
+    <rect x="20" y="0" width="960" height="175" rx="14" fill="none" stroke="url(#cardBorder1)" stroke-width="1.5" opacity="0.3"/>
+    <text x="45" y="38" font-family="monospace" font-size="12" class="text-m">01</text>
+    <rect x="75" y="27" width="80" height="22" rx="11" fill="#22C55E" opacity="0.15"/>
+    <text x="92" y="43" font-family="system-ui,sans-serif" font-size="11" fill="#22C55E">In Production</text>
+    <text x="45" y="78" font-family="system-ui,sans-serif" font-size="22" font-weight="600" class="text-p">Bolt</text>
+    <text x="45" y="100" font-family="system-ui,sans-serif" font-size="13" class="text-s">Power Tool Shop Management</text>
+    <text x="45" y="128" font-family="system-ui,sans-serif" font-size="13" class="text-s">
+      <tspan x="45" dy="0">Complete business-in-a-box Android app for Indian power tool shops — rentals, repairs,</tspan>
+      <tspan x="45" dy="20">inventory, customer CRM, and financial tracking with offline-first reliability.</tspan>
+    </text>
+    <text x="45" y="162" font-family="system-ui,sans-serif" font-size="10" fill="#6C63FF">Kotlin · Compose · MVVM + Hilt · Room · Firebase</text>
+    <rect x="720" y="62" width="120" height="28" rx="6" fill="#6C63FF" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.2;0.1" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="750" y="81" font-family="system-ui,sans-serif" font-size="12" fill="#6C63FF">Google Play →</text>
+    <rect x="850" y="62" width="100" height="28" rx="6" fill="#FF6584" opacity="0.1"/>
+    <text x="870" y="81" font-family="system-ui,sans-serif" font-size="12" fill="#FF6584">Website →</text>
+  </g>
+
+  <g>
+    <rect x="20" y="195" width="960" height="175" rx="14" class="card-bg"/>
+    <rect x="20" y="195" width="960" height="175" rx="14" fill="none" stroke="url(#cardBorder2)" stroke-width="1.5" opacity="0.3"/>
+    <text x="45" y="233" font-family="monospace" font-size="12" class="text-m">02</text>
+    <rect x="75" y="222" width="80" height="22" rx="11" fill="#22C55E" opacity="0.15"/>
+    <text x="92" y="238" font-family="system-ui,sans-serif" font-size="11" fill="#22C55E">In Production</text>
+    <text x="45" y="273" font-family="system-ui,sans-serif" font-size="22" font-weight="600" class="text-p">Hydra</text>
+    <text x="45" y="295" font-family="system-ui,sans-serif" font-size="13" class="text-s">Smart Water Intake Tracker</text>
+    <text x="45" y="323" font-family="system-ui,sans-serif" font-size="13" class="text-s">
+      <tspan x="45" dy="0">Gamified hydration tracking with animated Canvas water wave UI, XP system,</tspan>
+      <tspan x="45" dy="20">streak tracking, weather-adaptive goals, and 60+ language locales.</tspan>
+    </text>
+    <text x="45" y="357" font-family="system-ui,sans-serif" font-size="10" fill="#6C63FF">Kotlin · Compose · Clean Arch · Hilt · Room · Health Connect</text>
+    <rect x="720" y="257" width="120" height="28" rx="6" fill="#6C63FF" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.2;0.1" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <text x="750" y="276" font-family="system-ui,sans-serif" font-size="12" fill="#6C63FF">Google Play →</text>
+    <rect x="850" y="257" width="100" height="28" rx="6" fill="#FF6584" opacity="0.1"/>
+    <text x="870" y="276" font-family="system-ui,sans-serif" font-size="12" fill="#FF6584">Website →</text>
+  </g>
+
+  <g>
+    <rect x="20" y="390" width="960" height="175" rx="14" class="card-bg"/>
+    <rect x="20" y="390" width="960" height="175" rx="14" fill="none" stroke="url(#cardBorder1)" stroke-width="1.5" opacity="0.3"/>
+    <text x="45" y="428" font-family="monospace" font-size="12" class="text-m">03</text>
+    <rect x="75" y="417" width="95" height="22" rx="11" fill="#FF6584" opacity="0.15"/>
+    <text x="92" y="433" font-family="system-ui,sans-serif" font-size="11" fill="#FF6584">Closed Testing</text>
+    <text x="45" y="468" font-family="system-ui,sans-serif" font-size="22" font-weight="600" class="text-p">ZenTask</text>
+    <text x="45" y="490" font-family="system-ui,sans-serif" font-size="13" class="text-s">Gamified Productivity Suite</text>
+    <text x="45" y="518" font-family="system-ui,sans-serif" font-size="13" class="text-s">
+      <tspan x="45" dy="0">RPG-style task manager with 100 rank tiers across 11 titles (Zen Initiate → THE ZENITH),</tspan>
+      <tspan x="45" dy="20">Pomodoro timer, task dependencies, recurring tasks, and Google Drive sync.</tspan>
+    </text>
+    <text x="45" y="552" font-family="system-ui,sans-serif" font-size="10" fill="#6C63FF">Kotlin · Compose · Clean Arch · Hilt · Room · FCM · WorkManager</text>
+  </g>
+</svg>

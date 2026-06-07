@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="100%" height="auto">
+  <style>
+    .bg { fill: #0d1117; } .card-bg { fill: #1a1a2e; opacity: 0.4; }
+    .stroke { stroke: #2a2a2a; } .text-p { fill: #e4e4e4; }
+    .text-s { fill: #888; } .text-m { fill: #555; }
+    .text-a1 { fill: #6C63FF; } .text-a2 { fill: #FF6584; }
+    .text-green { fill: #22C55E; }
+    @media (prefers-color-scheme: light) {
+      .card-bg { fill: #f0f0f6; opacity: 0.6; }
+      .stroke { stroke: #d8d8e0; } .text-p { fill: #1f1f1f; }
+      .text-s { fill: #666; } .text-m { fill: #999; }
+    }
+  </style>
+  <g opacity="0.03">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6C63FF" stroke-width="0.5"/>
+    </pattern>
+    <rect width="1000" height="340" fill="url(#grid)"/>
+  </g>
+  <g opacity="0.08">
+    <rect x="80" y="50" width="60" height="60" rx="8" fill="#6C63FF">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-15;0,0" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+    <circle cx="860" cy="80" r="30" fill="#FF6584">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-20;0,0" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <polygon points="150,260 170,220 190,260" fill="#FF6584">
+      <animateTransform attributeName="transform" type="translate" values="0,0;8,0;0,0" dur="5s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="900" cy="240" r="12" fill="#6C63FF">
+      <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="780" y="180" width="40" height="40" rx="6" fill="#6C63FF">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="15s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="60" y="78" width="120" height="3" rx="1.5" fill="url(#grad)">
+    <animate attributeName="width" values="0;120;120" dur="2s" fill="freeze"/>
+  </rect>
+  <text x="60" y="120" font-family="system-ui,-apple-system,sans-serif" font-size="52" font-weight="700" fill="url(#gradText)">
+    Abhijith Warrier
+    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
+  </text>
+  <g>
+    <text x="62" y="170" font-family="system-ui,-apple-system,sans-serif" font-size="20" class="text-s" opacity="0">
+      Mobile Developer — Android &amp; iOS
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+    </text>
+    <rect x="342" y="152" width="2" height="22" fill="#6C63FF" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="1.5s"/>
+    </rect>
+  </g>
+  <text x="62" y="210" font-family="system-ui,-apple-system,sans-serif" font-size="14" class="text-s" opacity="0">
+    Shipping production Android &amp; iOS apps — hardware-integrated, offline-first, live in 60+ locales.
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="2s" fill="freeze"/>
+  </text>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+    <circle cx="62" cy="248" r="5" fill="#22C55E">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="78" y="253" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#22C55E">Available for senior mobile roles</text>
+  </g>
+  <g opacity="0">
+    <rect x="60" y="275" width="110" height="32" rx="6" class="stroke" stroke-width="1"/>
+    <rect x="60" y="275" width="110" height="32" rx="6" fill="url(#grad)" opacity="0.1"/>
+    <text x="115" y="296" font-family="system-ui,sans-serif" font-size="12" class="text-s" text-anchor="middle">warrierabhijith@gmail.com</text>
+    <text x="210" y="296" font-family="system-ui,sans-serif" font-size="13" class="text-s">GitHub</text>
+    <text x="295" y="296" font-family="system-ui,sans-serif" font-size="13" class="text-s">LinkedIn</text>
+    <text x="395" y="296" font-family="system-ui,sans-serif" font-size="13" class="text-s">Website</text>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+  </g>
+  <g opacity="0.06">
+    <text x="920" y="180" font-family="monospace" font-size="10" fill="#6C63FF" text-anchor="end">
+      &lt;/&gt;
+      <animate attributeName="opacity" values="0.06;0.15;0.06" dur="3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

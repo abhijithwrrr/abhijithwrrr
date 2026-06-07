@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=36&pause=1000&color=D86A45&center=true&vCenter=true&width=800&lines=%E2%9C%8B+Hi!+I%27m+Abhijith+Warrier;%F0%9F%9A%80+Senior+Mobile+Engineer;%F0%9F%93%B1+Android+%26+iOS;%F0%9F%9B%A0%EF%B8%8F+Kotlin+%7C+Compose+%7C+SwiftUI;%F0%9F%94%8C+Offline-first+%7C+IoT;%F0%9F%92%BC+Open+to+senior+roles;%F0%9F%8C%8D+Remote+%7C+Hybrid+%7C+Freelance" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=36&pause=1000&color=D86A45&center=true&vCenter=true&width=800&lines=%E2%9C%8B+Hi!+I%27m+Abhijith+Warrier;%F0%9F%9A%80+Senior+Mobile+Engineer;%F0%9F%93%B1+Android+%26+iOS;%F0%9F%9B%A0%EF%B8%8F+Kotlin+%7C+Compose+%7C+SwiftUI;%F0%9F%94%8C+Offline-first+%7C+IoT;%F0%9F%92%BC+Open+to+senior+roles;%F0%9F%8C%8D+Remote+%7C+Hybrid+%7C+Freelance" alt="Typing SVG" width="800" />
 </div>
 
 <br>
@@ -64,8 +64,8 @@
       </td>
       <td width="40%" align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=abhijithwrrr&layout=compact&langs_count=6&hide=html,css,scss&bg_color=0E0D0B&title_color=D86A45&text_color=E8E4DA&icon_color=9B3A1C&border_color=2A2825&hide_border=true">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhijithwrrr&layout=compact&langs_count=6&hide=html,css,scss&bg_color=F2EFE8&title_color=9B3A1C&text_color=2A2825&icon_color=9B3A1C&border_color=D6D0C2&hide_border=true" width="320">
+          <source media="(prefers-color-scheme: dark)" srcset="https://readme-stats-fork.vercel.app/api/top-langs/?username=abhijithwrrr&layout=compact&langs_count=6&hide=html,css,scss&bg_color=0E0D0B&title_color=D86A45&text_color=E8E4DA&icon_color=9B3A1C&border_color=2A2825&hide_border=true">
+          <img src="https://readme-stats-fork.vercel.app/api/top-langs/?username=abhijithwrrr&layout=compact&langs_count=6&hide=html,css,scss&bg_color=F2EFE8&title_color=9B3A1C&text_color=2A2825&icon_color=9B3A1C&border_color=D6D0C2&hide_border=true" width="320">
         </picture>
         <br><br>
         <picture>
@@ -193,8 +193,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=abhijithwrrr&show_icons=true&count_private=true&hide_border=true&bg_color=0E0D0B&title_color=D86A45&text_color=E8E4DA&icon_color=9B3A1C&border_color=2A2825">
-    <img src="https://github-readme-stats.vercel.app/api?username=abhijithwrrr&show_icons=true&count_private=true&hide_border=true&bg_color=F2EFE8&title_color=9B3A1C&text_color=2A2825&icon_color=9B3A1C&border_color=D6D0C2" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-stats-fork.vercel.app/api?username=abhijithwrrr&show_icons=true&count_private=true&hide_border=true&bg_color=0E0D0B&title_color=D86A45&text_color=E8E4DA&icon_color=9B3A1C&border_color=2A2825">
+    <img src="https://readme-stats-fork.vercel.app/api?username=abhijithwrrr&show_icons=true&count_private=true&hide_border=true&bg_color=F2EFE8&title_color=9B3A1C&text_color=2A2825&icon_color=9B3A1C&border_color=D6D0C2" width="420">
   </picture>
 </div>
 
@@ -202,7 +202,7 @@
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=abhijithwrrr&no-frame=true&no-bg=true&theme=onedark&column=7" width="100%" alt="GitHub Trophies" />
+    <img src="https://profile-trophy.vercel.app/?username=abhijithwrrr&no-frame=true&no-bg=true&theme=onedark&column=7" width="100%" alt="GitHub Trophies" />
   </a>
 </div>
 

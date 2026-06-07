@@ -219,15 +219,6 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhijithwrrr&theme=maroongold" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhijithwrrr&theme=default" width="100%" alt="GitHub Profile Summary" />
-  </picture>
-</div>
-
-<br>
-
-<div align="center">
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/snake.svg">
     <img src="assets/snake-light.svg" width="100%" alt="Snake animation" />
   </picture>
@@ -237,17 +228,6 @@
 
 <div align="center">
   <img src="assets/contributions.svg" width="100%" alt="Contribution activity animation" />
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## <img src="assets/accent.svg" width="24" height="8" alt="" /> 💭 Dev Quote
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" width="100%" alt="Dev Quote" />
-  </picture>
 </div>
 
 ---

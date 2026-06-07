@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="100%">
+  <style>
+    .label { fill: #9B3A1C; font-family: system-ui,sans-serif; font-size: 11px; }
+    .block { fill: #2A2825; }
+    @media (prefers-color-scheme: light) {
+      .block { fill: #E8E4DA; }
+    }
+  </style>
+  <text x="20" y="24" class="label" font-weight="600">Contribution Activity</text>
+  <text x="20" y="42" class="label" fill-opacity="0.6">Last 12 weeks</text>
+
+  <g>
+    <!-- Contribution grid: 12 columns x 7 rows -->
+    
+    <g>
+      <rect x="160" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="160" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="160" y="52" width="12" height="12" rx="2" class="block"/>
+      <rect x="160" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="7s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="160" y="84" width="12" height="12" rx="2" class="block"/>
+      <rect x="160" y="100" width="12" height="12" rx="2" class="block"/>
+      <rect x="160" y="116" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="6s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g>
+      <rect x="178" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="178" y="36" width="12" height="12" rx="2" class="block"/>
+      <rect x="178" y="52" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="6s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="178" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="9s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="178" y="84" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="5s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="178" y="100" width="12" height="12" rx="2" class="block"/>
+      <rect x="178" y="116" width="12" height="12" rx="2" class="block"/>
+    </g>
+
+    <g>
+      <rect x="196" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="196" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="7s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="196" y="52" width="12" height="12" rx="2" class="block"/>
+      <rect x="196" y="68" width="12" height="12" rx="2" class="block"/>
+      <rect x="196" y="84" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="8s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="196" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="4s" begin="5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="196" y="116" width="12" height="12" rx="2" class="block"/>
+    </g>
+
+    <g>
+      <rect x="214" y="20" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="6s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="214" y="36" width="12" height="12" rx="2" class="block"/>
+      <rect x="214" y="52" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="5s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="214" y="68" width="12" height="12" rx="2" class="block"/>
+      <rect x="214" y="84" width="12" height="12" rx="2" class="block"/>
+      <rect x="214" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="7s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="214" y="116" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="8s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g>
+      <rect x="232" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="232" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="9s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="232" y="52" width="12" height="12" rx="2" class="block"/>
+      <rect x="232" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="5s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="232" y="84" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="6s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="232" y="100" width="12" height="12" rx="2" class="block"/>
+      <rect x="232" y="116" width="12" height="12" rx="2" class="block"/>
+    </g>
+
+    <g>
+      <rect x="250" y="20" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="7s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="250" y="36" width="12" height="12" rx="2" class="block"/>
+      <rect x="250" y="52" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="8s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="250" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="4s" begin="5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="250" y="84" width="12" height="12" rx="2" class="block"/>
+      <rect x="250" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="6s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="250" y="116" width="12" height="12" rx="2" class="block"/>
+    </g>
+
+    <g>
+      <rect x="268" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="268" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="5s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="268" y="52" width="12" height="12" rx="2" class="block"/>
+      <rect x="268" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="8s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="268" y="84" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="7s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="268" y="100" width="12" height="12" rx="2" class="block"/>
+      <rect x="268" y="116" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="6s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g>
+      <rect x="286" y="20" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="9s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="286" y="36" width="12" height="12" rx="2" class="block"/>
+      <rect x="286" y="52" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="4s" begin="5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="286" y="68" width="12" height="12" rx="2" class="block"/>
+      <rect x="286" y="84" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="7s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="286" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="5s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="286" y="116" width="12" height="12" rx="2" class="block"/>
+    </g>
+
+    <g>
+      <rect x="304" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="304" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="6s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="304" y="52" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="8s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="304" y="68" width="12" height="12" rx="2" class="block"/>
+      <rect x="304" y="84" width="12" height="12" rx="2" class="block"/>
+      <rect x="304" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="5s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="304" y="116" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="7s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g>
+      <rect x="322" y="20" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="7s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="322" y="36" width="12" height="12" rx="2" class="block"/>
+      <rect x="322" y="52" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="6s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="322" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="9s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="322" y="84" width="12" height="12" rx="2" class="block"/>
+      <rect x="322" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="4s" begin="5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="322" y="116" width="12" height="12" rx="2" class="block"/>
+    </g>
+
+    <g>
+      <rect x="340" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="340" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="5s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="340" y="52" width="12" height="12" rx="2" class="block"/>
+      <rect x="340" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="8s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="340" y="84" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="6s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="340" y="100" width="12" height="12" rx="2" class="block"/>
+      <rect x="340" y="116" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="7s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g>
+      <rect x="358" y="20" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="8s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="358" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="4s" begin="5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="358" y="52" width="12" height="12" rx="2" class="block"/>
+      <rect x="358" y="68" width="12" height="12" rx="2" class="block"/>
+      <rect x="358" y="84" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="7s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="358" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="5s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="358" y="116" width="12" height="12" rx="2" class="block"/>
+    </g>
+
+    <g>
+      <rect x="376" y="20" width="12" height="12" rx="2" class="block"/>
+      <rect x="376" y="36" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="6s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="376" y="52" width="12" height="12" rx="2" class="block"/>
+      <rect x="376" y="68" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="9s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="376" y="84" width="12" height="12" rx="2" class="block"/>
+      <rect x="376" y="100" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#9B3A1C;#2A2825" dur="8s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="376" y="116" width="12" height="12" rx="2" class="block">
+        <animate attributeName="fill" values="#2A2825;#D86A45;#2A2825" dur="4s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Right side: activity summary -->
+    <rect x="410" y="20" width="350" height="110" rx="8" fill="none" stroke="#9B3A1C" stroke-width="0.5" opacity="0.2"/>
+    <text x="430" y="46" class="label">Commits this year</text>
+    <text x="430" y="74" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#D86A45">
+      <tspan>—</tspan>
+    </text>
+    <text x="430" y="98" class="label" fill-opacity="0.5">Contribution activity updates daily</text>
+    <text x="430" y="118" class="label" fill-opacity="0.5">via automated workflow</text>
+  </g>
+</svg>

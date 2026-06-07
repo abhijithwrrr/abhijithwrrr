@@ -7,14 +7,14 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=800&color=9B3A1C&center=true&vCenter=true&width=500&lines=Senior+Mobile+Engineer;Android+%26+iOS;Kotlin+%7C+Compose+%7C+SwiftUI;Offline-first+%7C+IoT+%7C+Clean+Architecture;Open+to+senior+roles;Remote+%7C+Hybrid+%7C+Freelance" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=36&pause=1000&color=D86A45&center=true&vCenter=true&width=800&lines=%E2%9C%8B+Hi!+I%27m+Abhijith+Warrier;%F0%9F%9A%80+Senior+Mobile+Engineer;%F0%9F%93%B1+Android+%26+iOS;%F0%9F%9B%A0%EF%B8%8F+Kotlin+%7C+Compose+%7C+SwiftUI;%F0%9F%94%8C+Offline-first+%7C+IoT;%F0%9F%92%BC+Open+to+senior+roles;%F0%9F%8C%8D+Remote+%7C+Hybrid+%7C+Freelance" alt="Typing SVG" />
 </div>
 
 <br>
 
 <div align="center">
   <a href="https://abhijithwrrr.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%239B3A1C.svg?style=for-the-badge&logo=google-chrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-%23C5A55A.svg?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
   <a href="https://linkedin.com/in/abhijith-warrier" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -25,26 +25,29 @@
   <a href="https://play.google.com/store/apps/details?id=com.awbuilds.bolt" target="_blank">
     <img src="https://img.shields.io/badge/Google_Play-%23414141.svg?style=for-the-badge&logo=google-play&logoColor=white" />
   </a>
+  <a href="https://github.com/abhijithwrrr" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23C5A55A.svg?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </div>
 
 <br>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## <img src="assets/accent.svg" width="24" height="8" alt="" /> About Me
+## <img src="assets/accent.svg" width="24" height="8" alt="" /> 💫 About Me
 
 <div align="center">
   <table>
     <tr>
       <td width="60%" valign="top">
         <p>
-          Mobile engineer with <strong>4+ years</strong> shipping production apps. I turn complex 
-          requirements into <strong>maintainable, offline-first mobile systems</strong> that perform 
+          Mobile engineer with <strong>4+ years</strong> shipping production apps. I turn complex
+          requirements into <strong>maintainable, offline-first mobile systems</strong> that perform
           well in production and stay easy to extend.
         </p>
         <p>
-          My work spans <strong>reactive UIs, real-time device communication (USB/LoRa/BLE), 
-          Firebase-backed services, and IoT data pipelines</strong>. I care deeply about 
+          My work spans <strong>reactive UIs, real-time device communication (USB/LoRa/BLE),
+          Firebase-backed services, and IoT data pipelines</strong>. I care deeply about
           <strong>architecture, reliability, and developer experience</strong>.
         </p>
         <details open>
@@ -76,7 +79,7 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## <img src="assets/accent.svg" width="24" height="8" alt="" /> Featured Apps
+## <img src="assets/accent.svg" width="24" height="8" alt="" /> 📲 Featured Apps
 
 <div align="center">
   <table>
@@ -130,25 +133,49 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## <img src="assets/accent.svg" width="24" height="8" alt="" /> Skills
+## <img src="assets/accent.svg" width="24" height="8" alt="" /> 🛠️ Tech Stack
 
 <div align="center">
-
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" /> |
-| **Android** | <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" /> <img src="https://img.shields.io/badge/Material_3-0066B8?style=flat-square&logo=materialdesign&logoColor=white" /> <img src="https://img.shields.io/badge/Room-003B57?style=flat-square&logo=sqlite&logoColor=white" /> <img src="https://img.shields.io/badge/WorkManager-34A853?style=flat-square&logo=google&logoColor=white" /> |
-| **iOS** | <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=flat-square&logo=swift&logoColor=white" /> <img src="https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white" /> |
-| **Architecture** | MVVM · MVI · Clean Architecture · Repository · SOLID · Hilt/Dagger |
-| **Cloud & Networking** | <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Retrofit-48B983?style=flat-square&logo=square&logoColor=white" /> <img src="https://img.shields.io/badge/Drive_API-4285F4?style=flat-square&logo=google&logoColor=white" /> |
-| **IoT** | USB · LoRa · BLE · Bluetooth · Firmware Parsing · Binary Decoding |
-| **Testing** | <img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white" /> <img src="https://img.shields.io/badge/Espresso-43A047?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/XCUITest-3478F6?style=flat-square&logo=xcode&logoColor=white" /> |
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin,java,swift,androidstudio,xcode,gradle,firebase,git,github,postman,figma,sqlite,idea&perline=13&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=kotlin,java,swift,androidstudio,xcode,gradle,firebase,git,github,postman,figma,sqlite,idea&perline=13&theme=light" />
+  </picture>
+  <br><br>
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Technologies</th>
+    </tr>
+    <tr>
+      <td><strong>Architecture</strong></td>
+      <td>MVVM · MVI · Clean Architecture · Repository · SOLID · Hilt / Dagger</td>
+    </tr>
+    <tr>
+      <td><strong>UI Frameworks</strong></td>
+      <td>Jetpack Compose · Material 3 · SwiftUI · UIKit</td>
+    </tr>
+    <tr>
+      <td><strong>Data & Storage</strong></td>
+      <td>Room · SQLite · DataStore · Retrofit · Drive API</td>
+    </tr>
+    <tr>
+      <td><strong>Cloud & Services</strong></td>
+      <td>Firebase (Auth · Firestore · Storage · Messaging · Functions) · WorkManager</td>
+    </tr>
+    <tr>
+      <td><strong>IoT & Hardware</strong></td>
+      <td>USB · LoRa · BLE · Bluetooth · Firmware Parsing · Binary Decoding · CameraX · Health Connect</td>
+    </tr>
+    <tr>
+      <td><strong>Testing & CI</strong></td>
+      <td>JUnit · Espresso · Compose UI Tests · XCUITest · GitHub Actions</td>
+    </tr>
+  </table>
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## <img src="assets/accent.svg" width="24" height="8" alt="" /> Experience
+## <img src="assets/accent.svg" width="24" height="8" alt="" /> 💼 Experience
 
 <div align="center">
 
@@ -162,7 +189,7 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## <img src="assets/accent.svg" width="24" height="8" alt="" /> GitHub Activity
+## <img src="assets/accent.svg" width="24" height="8" alt="" /> 📊 GitHub Activity
 
 <div align="center">
   <picture>
@@ -170,6 +197,25 @@
     <img src="https://github-readme-stats.vercel.app/api?username=abhijithwrrr&show_icons=true&count_private=true&hide_border=true&bg_color=F2EFE8&title_color=9B3A1C&text_color=2A2825&icon_color=9B3A1C&border_color=D6D0C2" width="420">
   </picture>
 </div>
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=abhijithwrrr&no-frame=true&no-bg=true&theme=onedark&column=7" width="100%" alt="GitHub Trophies" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=abhijithwrrr&bg_color=0E0D0B&color=D86A45&line=9B3A1C&point=D86A45&area=true&area_color=9B3A1C40&hide_border=true&radius=8">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhijithwrrr&bg_color=F2EFE8&color=9B3A1C&line=D86A45&point=9B3A1C&area=true&area_color=D86A4540&hide_border=true&radius=8" width="100%" alt="GitHub Activity Graph" />
+  </picture>
+</div>
+
+<br>
 
 <div align="center">
   <img src="assets/contributions.svg" width="100%" alt="Contribution activity animation" />
@@ -184,9 +230,9 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:5C2210,100:9B3A1C&section=footer&animation=fadeIn" width="100%">
   </picture>
   <br><br>
-  
+
   <a href="https://abhijithwrrr.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%239B3A1C.svg?style=for-the-badge&logo=google-chrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-%23C5A55A.svg?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://linkedin.com/in/abhijith-warrier" target="_blank">
@@ -196,7 +242,11 @@
   <a href="mailto:warrierabhijith@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  
+  &nbsp;
+  <a href="https://github.com/abhijithwrrr" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23C5A55A.svg?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
   <br><br>
   <img src="assets/accent.svg" width="24" height="8" alt="" />
   <br>

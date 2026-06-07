@@ -218,6 +218,15 @@
 <br>
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake.svg">
+    <img src="assets/snake-light.svg" width="100%" alt="Snake animation" />
+  </picture>
+</div>
+
+<br>
+
+<div align="center">
   <img src="assets/contributions.svg" width="100%" alt="Contribution activity animation" />
 </div>
 

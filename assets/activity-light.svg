@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 150" width="780" height="150" role="img" aria-labelledby="at ad">
+<title id="at">Contributions by month</title>
+<desc id="ad">1,143 contributions over the last 12 months, shown per month</desc>
+<g font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" shape-rendering="geometricPrecision">
+<text x="40" y="20" font-size="10" fill="#6B655C">Contributions by month</text>
+<rect x="48.0" y="110" width="37.84615384615385" height="2" rx="3" fill="#D86A45" opacity="0.5"/>
+<text x="66.9" y="104" font-size="9" text-anchor="middle" fill="#6B655C">6</text>
+<text x="66.9" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Oct*</text>
+<rect x="101.8" y="110" width="37.84615384615385" height="2" rx="3" fill="#9B3A1C"/>
+<text x="120.8" y="104" font-size="9" text-anchor="middle" fill="#6B655C">0</text>
+<text x="120.8" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Nov</text>
+<rect x="155.7" y="110" width="37.84615384615385" height="2" rx="3" fill="#9B3A1C"/>
+<text x="174.6" y="104" font-size="9" text-anchor="middle" fill="#6B655C">6</text>
+<text x="174.6" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Dec</text>
+<rect x="209.5" y="110" width="37.84615384615385" height="2" rx="3" fill="#9B3A1C"/>
+<text x="228.5" y="104" font-size="9" text-anchor="middle" fill="#6B655C">3</text>
+<text x="228.5" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Jan</text>
+<rect x="263.4" y="109" width="37.84615384615385" height="3" rx="3" fill="#9B3A1C"/>
+<text x="282.3" y="103" font-size="9" text-anchor="middle" fill="#6B655C">16</text>
+<text x="282.3" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Feb</text>
+<rect x="317.2" y="107" width="37.84615384615385" height="5" rx="3" fill="#9B3A1C"/>
+<text x="336.2" y="101" font-size="9" text-anchor="middle" fill="#6B655C">25</text>
+<text x="336.2" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Mar</text>
+<rect x="371.1" y="102" width="37.84615384615385" height="10" rx="3" fill="#9B3A1C"/>
+<text x="390.0" y="96" font-size="9" text-anchor="middle" fill="#6B655C">52</text>
+<text x="390.0" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Apr</text>
+<rect x="424.9" y="94" width="37.84615384615385" height="18" rx="3" fill="#9B3A1C"/>
+<text x="443.8" y="88" font-size="9" text-anchor="middle" fill="#6B655C">90</text>
+<text x="443.8" y="127" font-size="10" text-anchor="middle" fill="#6B655C">May</text>
+<rect x="478.8" y="89" width="37.84615384615385" height="23" rx="3" fill="#9B3A1C"/>
+<text x="497.7" y="83" font-size="9" text-anchor="middle" fill="#6B655C">114</text>
+<text x="497.7" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Jun</text>
+<rect x="532.6" y="81" width="37.84615384615385" height="31" rx="3" fill="#9B3A1C"/>
+<text x="551.5" y="75" font-size="9" text-anchor="middle" fill="#6B655C">152</text>
+<text x="551.5" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Jul</text>
+<rect x="586.5" y="89" width="37.84615384615385" height="23" rx="3" fill="#9B3A1C"/>
+<text x="605.4" y="83" font-size="9" text-anchor="middle" fill="#6B655C">114</text>
+<text x="605.4" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Aug</text>
+<rect x="640.3" y="48" width="37.84615384615385" height="64" rx="3" fill="#9B3A1C"/>
+<text x="659.2" y="42" font-size="9" text-anchor="middle" fill="#6B655C">317</text>
+<text x="659.2" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Sep</text>
+<rect x="694.2" y="62" width="37.84615384615385" height="50" rx="3" fill="#D86A45" opacity="0.5"/>
+<text x="713.1" y="56" font-size="9" text-anchor="middle" fill="#6B655C">248</text>
+<text x="713.1" y="127" font-size="10" text-anchor="middle" fill="#6B655C">Oct*</text>
+<line x1="40" y1="112.5" x2="740" y2="112.5" stroke="#E6E0D4" stroke-width="1"/>
+<text x="740" y="144" font-size="9" text-anchor="end" fill="#6B655C">* partial month</text>
+</g>
+</svg>

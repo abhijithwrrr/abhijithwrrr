@@ -1,0 +1,29 @@
+name: Check README links
+
+# The activity-graph card returned 402 DEPLOYMENT_DISABLED and nobody noticed
+# because a broken image is invisible in review. This job makes that loud.
+
+on:
+  schedule:
+    - cron: "23 5 * * 1" # Mondays, 05:23 UTC
+  workflow_dispatch:
+  push:
+    paths:
+      - "README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify every external URL in the README
+        run: node .github/scripts/check-links.mjs

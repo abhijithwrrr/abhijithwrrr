@@ -1,0 +1,56 @@
+name: Refresh profile assets
+
+on:
+  schedule:
+    # Monthly on the 1st at 04:17 UTC. Monthly, not daily: the snake workflow
+    # produced 137 commits of pure noise in 149 total.
+    - cron: "17 4 1 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  contributions:
+    # Forks must never push here.
+    if: github.repository == 'abhijithwrrr/abhijithwrrr'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Require a token that can see private activity
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_TOKEN" ]; then
+            echo "::error::PROFILE_TOKEN is missing. Add a classic PAT with read:user."
+            echo "Without it the calendar silently drops private contributions (873 of 1,143)."
+            exit 1
+          fi
+
+      - name: Generate contribution calendar
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GH_LOGIN: abhijithwrrr
+        run: node .github/scripts/generate-contributions.mjs
+
+      - name: Commit only real changes
+        run: |
+          if git diff --quiet -- assets; then
+            echo "No changes — the calendar is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "chore: refresh contribution calendar"
+          git push

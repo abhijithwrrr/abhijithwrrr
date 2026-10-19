@@ -93,23 +93,32 @@ function render(calendar, palette) {
   });
 
   // Month labels, only when at least 3 columns have passed since the last one.
-  const monthLabels = [];
+  // A window that starts late in a month produces a 1–2 column stub that would
+  // crowd out the next real label (Oct 2025 here), so drop that leading stub.
+  const transitions = [];
   let lastMonth = -1;
-  let lastLabelWeek = -99;
   weeks.forEach((week, wi) => {
     const first = week.contributionDays[0];
     if (!first) return;
     const month = Number(first.date.slice(5, 7)) - 1;
     if (month !== lastMonth) {
-      if (wi - lastLabelWeek >= 3) {
-        monthLabels.push(
-          `<text x="${X0 + wi * PITCH}" y="${Y0 - 12}" font-size="10" fill="${palette.muted}">${MONTHS[month]}</text>`
-        );
-        lastLabelWeek = wi;
-      }
+      transitions.push({ month, wi });
       lastMonth = month;
     }
   });
+  if (transitions.length > 1 && transitions[1].wi - transitions[0].wi < 3) {
+    transitions.shift();
+  }
+
+  const monthLabels = [];
+  let lastLabelWeek = -99;
+  for (const { month, wi } of transitions) {
+    if (wi - lastLabelWeek < 3) continue;
+    monthLabels.push(
+      `<text x="${X0 + wi * PITCH}" y="${Y0 - 12}" font-size="10" fill="${palette.muted}">${MONTHS[month]}</text>`
+    );
+    lastLabelWeek = wi;
+  }
 
   // Weekday labels on Mon/Wed/Fri, the only rows with room to breathe.
   const weekdayLabels = [

@@ -368,7 +368,7 @@
 <rect x="703" y="108" width="11" height="11" rx="2" fill="#B04A26"/>
 <rect x="716" y="30" width="11" height="11" rx="2" fill="#7A2E17"/>
 <rect x="716" y="43" width="11" height="11" rx="2" fill="#7A2E17"/>
-<text x="40" y="18" font-size="10" fill="#8A8378">Oct</text>
+<text x="66" y="18" font-size="10" fill="#8A8378">Nov</text>
 <text x="131" y="18" font-size="10" fill="#8A8378">Dec</text>
 <text x="183" y="18" font-size="10" fill="#8A8378">Jan</text>
 <text x="235" y="18" font-size="10" fill="#8A8378">Feb</text>

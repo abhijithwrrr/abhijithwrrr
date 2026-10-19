@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:D86A45,100:9B3A1C&text=Abhijith%20Warrier&textBg=false&fontSize=40&fontColor=F2EFE8&animation=fadeIn&fontAlignY=36" width="100%" alt="Abhijith Warrier">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:D86A45,100:5C2210&text=Abhijith%20Warrier&textBg=false&fontSize=40&fontColor=F2EFE8&animation=fadeIn&fontAlignY=38">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:9B3A1C,100:5C2210&text=Abhijith%20Warrier&textBg=false&fontSize=40&fontColor=F2EFE8&animation=fadeIn&fontAlignY=38" width="100%" alt="Abhijith Warrier">
+  </picture>
 </div>
 
 <div align="center">
@@ -13,18 +16,24 @@
 
 <p align="center">
   <a href="https://abhijithwarrier.com/"><img src="https://img.shields.io/badge/abhijithwarrier.com-9B3A1C?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
-  <a href="https://github.com/abhijithwrrr"><img src="https://img.shields.io/badge/GitHub-5C2210?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://github.com/abhijithwrrr"><img src="https://img.shields.io/badge/GitHub-9B3A1C?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://linkedin.com/in/abhijith-warrier"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:warrierabhijith@gmail.com"><img src="https://img.shields.io/badge/Email-D86A45?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:warrierabhijith@gmail.com"><img src="https://img.shields.io/badge/Email-9B3A1C?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
+
+<p align="center">
+  <sub><a href="#now">Now</a> · <a href="#selected-work">Work</a> · <a href="#how-i-build">How I build</a> · <a href="#stack">Stack</a> · <a href="#experience">Experience</a> · <a href="#activity">Activity</a></sub>
 </p>
 
 ---
 
 ## Now
 
-- **AuraSpend** — open-source expense parsing that runs entirely on-device
-- **Bolt v2** — rental operations for power-tool shops, private build
-- **ZenTask** — RPG-style task manager, in closed testing
+| Project | What it is | Status |
+|---------|-----------|--------|
+| **AuraSpend** | On-device expense parsing from bank SMS | [Open source](https://github.com/auraspend/auraspend) · AGPL-3.0 |
+| **Bolt v2** | Rental operations for power-tool shops | Private commercial build |
+| **ZenTask** | RPG-style task manager with a quadratic XP engine | Closed testing · 7 locales |
 
 ## Selected work
 
@@ -80,7 +89,19 @@ A hydration tracker that adapts its goal to the weather and keeps reminders aliv
 
 **Result** — 4.9★ across 1,000+ installs, localized into 60+ locales, with Drive backup and Health Connect sync.
 
-**ZenTask** — RPG-style task manager: 100 rank tiers across 11 titles, a quadratic XP engine, four Pomodoro presets, task dependencies, recurring tasks and Drive sync · 7 locales · closed testing · [case study](https://abhijithwarrier.com/zentask/)
+### ZenTask · RPG-style task manager
+
+<sub><code>Kotlin</code> <code>Compose</code> <code>Room</code> <code>Drive API</code> · Android · closed testing · 7 locales · <a href="https://abhijithwarrier.com/zentask/">case study</a></sub>
+
+Tasks pay XP, XP buys ranks — 100 tiers across 11 titles on a quadratic curve, so late progress costs more than early progress.
+
+<details>
+<summary>Engineering notes</summary>
+
+- Four Pomodoro presets, task dependencies and recurring tasks
+- Drive sync with conflict handling for edits made on two devices
+
+</details>
 
 ## How I build
 

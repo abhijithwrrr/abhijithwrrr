@@ -7,9 +7,11 @@
  * Usage: node .github/scripts/check-links.mjs [path-to-readme]
  */
 
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
 
 const README = process.argv[2] || "README.md";
+const README_DIR = dirname(resolve(README));
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36";
 
@@ -24,6 +26,29 @@ const urls = [
     (source.match(/https?:\/\/[^\s"'<>)\]]+/g) || []).map((u) => u.replace(/[.,;]+$/, ""))
   ),
 ].sort();
+
+// Local references (assets/*.svg) are just as invisible when broken: a renamed or
+// deleted file renders as a blank gap in the profile with no error anywhere.
+const localRefs = [
+  ...new Set(
+    [
+      // HTML attributes. srcset holds "a.svg 1x, b.svg 2x"; split only on
+      // comma+space so commas inside a query string survive.
+      ...[...source.matchAll(/(?:src|srcset|href)="([^"]+)"/g)].flatMap((m) =>
+        m[1].split(/,\s+/).map((part) => part.trim().split(/\s+/)[0])
+      ),
+      // Markdown images and links: ![alt](path) / [text](path)
+      ...[...source.matchAll(/!?\[[^\]]*\]\(([^)\s]+)/g)].map((m) => m[1]),
+    ]
+      .filter((ref) => ref && !/^(?:https?:|#|mailto:|data:|\/)/.test(ref))
+      .map((ref) => ref.replace(/^\.\//, ""))
+  ),
+].sort();
+
+const missingLocal = localRefs.filter((ref) => !existsSync(resolve(README_DIR, ref)));
+for (const ref of localRefs) {
+  console.log(`${missingLocal.includes(ref) ? "FAIL" : "OK  "} local   ${ref}`);
+}
 
 if (urls.length === 0) {
   console.error("No external URLs found — has the README changed shape?");
@@ -61,10 +86,13 @@ for (const url of urls) {
   else if (soft) warnings.push({ url, status });
 }
 
-console.log(`\n${urls.length} URLs checked · ${failures.length} failed · ${warnings.length} warnings`);
+const summary = `${urls.length} URLs checked · ${failures.length} failed · ${warnings.length} warnings`;
+const localSummary = `${localRefs.length} local references · ${missingLocal.length} missing`;
+console.log(`\n${summary}\n${localSummary}`);
 
-if (failures.length > 0) {
+if (failures.length > 0 || missingLocal.length > 0) {
   console.error("\nBroken references:");
+  for (const ref of missingLocal) console.error(`  missing  ${ref}`);
   for (const f of failures) console.error(`  ${f.status || f.note}  ${f.url}`);
   process.exit(1);
 }
